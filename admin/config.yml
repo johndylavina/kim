@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-github-username/your-repository-name
+  repo: johndylavina/kim
   branch: main
   open_authoring: true
 
