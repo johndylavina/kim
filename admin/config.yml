@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: johndylavina/kim
-  branch: main
+  branch: master
   publish_mode: editorial_workflow
   auth_scope: public_repo
   
