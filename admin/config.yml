@@ -3,7 +3,7 @@ backend:
   repo: johndylavina/kim
   branch: main
   publish_mode: editorial_workflow
-  auth_scope: repo
+  auth_scope: public_repo
   
 media_folder: "images/uploads"  # Where uploaded images go
 public_folder: "/images/uploads"
