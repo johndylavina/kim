@@ -4,7 +4,6 @@ backend:
   branch: main
   site_url: https://kimmanzanero.netlify.app
   base_url: https://github.com
-  identity_url: "https://dev-7hc6gamaa8f35fvq.us.auth0.com"
   auth_endpoint: /login/oauth/authorize
   
 media_folder: "images/uploads"  # Where uploaded images go
