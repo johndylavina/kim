@@ -2,9 +2,8 @@ backend:
   name: github
   repo: johndylavina/kim
   branch: main
-  site_url: https://kimmanzanero.netlify.app
-  base_url: https://github.com
-  auth_endpoint: /login/oauth/authorize
+  publish_mode: editorial_workflow
+  auth_scope: repo
   
 media_folder: "images/uploads"  # Where uploaded images go
 public_folder: "/images/uploads"
