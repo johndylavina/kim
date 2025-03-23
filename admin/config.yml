@@ -1,12 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
   repo: johndylavina/kim
   branch: main
-  publish_mode: editorial_workflow
   auth_scope: repo
-  gateway_url: "https://kimmanzanero.netlify.app/.netlify/git"
-  identity_url: "dev-7hc6gamaa8f35fvq.us.auth0.com/"
-
+  token: $GITHUB_ACCESS_TOKEN
+  
 media_folder: "images/uploads"  # Where uploaded images go
 public_folder: "/images/uploads"
 
